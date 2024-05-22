@@ -19,7 +19,8 @@ Neste projeto, é utilizado o conceito de Modulação por Largura de Pulso (PWM)
 - Resistor
 
 ## Esquemático
-(O esquemático do circuito pode ser inserido aqui.)
+![Esquemático do PWM Controller](schematics/pwm_controller_schematic.pdf)
+
 
 ## Código-fonte
 ```cpp
@@ -67,7 +68,7 @@ void loop() {
 
   lastButtonState = reading; // Atualiza o último estado do botão
 }
-
+```
 ## Instruções de montagem
 Siga estas etapas para montar o circuito do projeto:
 
